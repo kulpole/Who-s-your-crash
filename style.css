@@ -1,0 +1,48 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../files/background.png");
+  background-size: cover
+}
+
+.up-line{
+    width: 80vw;
+    position: fixed;
+    top: 10px;
+    right: -10px;
+}
+
+.down-line{
+    width: 80vw;
+    position: fixed;
+    bottom: 10px;
+    left: -10px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.crash-container {
+  height: 300px;
+  border: 15px solid white;
+}
+
+.crash-img {
+  height: 100%;
+}
+
+.bad-video{
+    display: none;
+}
+
+.good-video{
+    display: none;
+}
