@@ -27,7 +27,7 @@ crash_container.forEach((element) => {
         document.querySelector(".bad-video").children[0].play();
       }
     } else {
-      no_crash_container.children[0].src = `../files/${arr_crash[0]}.jpg`;
+      no_crash_container.children[0].src = `files/${arr_crash[0]}.jpg`;
       arr_crash.shift();
     }
 
